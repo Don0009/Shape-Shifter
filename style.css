@@ -1,0 +1,23 @@
+.circle {
+  width: 50px; /* Set the width of the circle */
+  height: 50px; /* Set the height of the circle */
+  border-radius: 50%; /* Set the border-radius to 50% to make it a circle */
+  background-color: #000; /* Set the background color of the circle */
+}
+
+.diff {
+  position: absolute; /* Position the child div absolutely */
+  top: 50%; /* Align the top edge of the child div to the middle of the parent */
+  left: 50%; /* Align the left edge of the child div to the middle of the parent */
+  transform: translate(-50%, -50%); /* Move the child div back by 50% of its own width and height */
+  width: 100px; /* Set the width of the child div */
+  height: 100px; /* Set the height of the child div */
+  background-color: blue; /* Just for visualization */
+}
+
+.parent {
+  position: relative; /* Make sure the parent container has a position */
+  width: 300px; /* Set the width of the parent container */
+  height: 300px; /* Set the height of the parent container */
+  background-color: lightgray; /* Just for visualization */
+}
